@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "text": "Finish the essay collaboration",
+    "dueDate": "Today",
+    "completed": false,
+    "subTasks": []
+  },
+  {
+    "id": 2,
+    "text": "Send collaboration files to Jerusha",
+    "dueDate": "Tuesday",
+    "completed": false,
+    "subTasks": []
+  },
+  {
+    "id": 3,
+    "text": "Finish the essay collaboration",
+    "dueDate": "Thursday",
+    "completed": false,
+    "subTasks": []
+  },
+  {
+    "id": 4,
+    "text": "Read next chapter of the book in Danish",
+    "dueDate": "1hr",
+    "completed": false,
+    "subTasks": []
+  },
+  {
+    "id": 5,
+    "text": "Do the math for next Monday",
+    "dueDate": "Monday",
+    "completed": false,
+    "subTasks": []
+  },
+  {
+    "id": 6,
+    "text": "Send the finished assignment",
+    "dueDate": "Saturday",
+    "completed": true,
+    "subTasks": []
+  },
+  {
+    "id": 7,
+    "text": "Read English book chapter 5",
+    "dueDate": "Yesterday",
+    "completed": true,
+    "subTasks": []
+  }
+]

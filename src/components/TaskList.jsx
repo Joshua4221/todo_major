@@ -1,22 +1,23 @@
 // import React from 'react'
-import PropTypes from 'prop-types'
-import Task from './Task'
-import '../styles/main.scss'
+import PropTypes from 'prop-types';
+import Task from './Task';
+import '../styles/main.scss';
 
 function TaskList({ tasks, updateTask, deleteTask, title }) {
+  console.log(tasks, 'falling in love');
   return (
-    <div className='task-list'>
+    <div className="task-list">
       <h2>{title}</h2>
-      {tasks.map((task) => (
+      {tasks?.map((task) => (
         <Task
-          key={task.id}
+          key={task?.id}
           task={task}
-          updateTask={updateTask}
-          deleteTask={deleteTask}
+          // updateTask={updateTask}
+          // deleteTask={deleteTask}
         />
       ))}
     </div>
-  )
+  );
 }
 
 TaskList.propTypes = {
@@ -32,6 +33,6 @@ TaskList.propTypes = {
   updateTask: PropTypes.func.isRequired,
   deleteTask: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
-}
+};
 
-export default TaskList
+export default TaskList;
